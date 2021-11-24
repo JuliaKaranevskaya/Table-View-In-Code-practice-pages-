@@ -9,6 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var button: UIButton?
     
     let tableView: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
